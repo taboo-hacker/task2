@@ -43,43 +43,42 @@
 - **模块化设计**：易于扩展或修改。
 - **预训练模型**：包括基本的CNN和VGG风格的模型。
 
-## 🛠️ 环境搭建
-
-### 克隆仓库
-
-```bash
-git clone https://github.com/taboo-hacker/task2.git
-cd task2
-```
-
-### 依赖要求
-
-确保你已经安装了以下先决条件：
-
-- Python
-- torch
-- torchsummary
-- torchvision
-
-你可以使用pip安装所有必需的包：
-
-```bash
-pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
-```
-
-### 数据准备
-
-已经有了，你不需要管。
-
 ## 🏗️ 快速启动
 
-1. 要开始训练模型，只需运行以下命令：
+### 环境搭建
+
+1. 克隆仓库
+
+    ```bash
+    git clone https://github.com/taboo-hacker/task2.git
+    cd task2
+    ```
+
+2. 依赖要求
+
+   确保你已经安装了以下先决条件：
+
+   - Python
+   - torch
+   - torchsummary
+   - torchvision
+
+   哪怕没有安装也没有关系，你可以使用安装python并使用以下命令安装所有必需的包：
+
+    ```bash
+    pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
+    ```
+
+3. 数据准备 
+已经有了，你不需要管。
+
+4. 要开始训练模型，只需运行以下命令：
 
     ```bash
     python task2.py
     ```
 
-2. 要测试模型，使用以下命令：
+5. 要测试模型，使用以下命令：
     
     ```bash
     python task2.py --test
