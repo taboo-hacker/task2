@@ -23,7 +23,7 @@
 └── LICENSE            # 许可证文件
 ```
 
-> 注：`cat_dog.zip` 与 `data/` 数据集未纳入版本管理，如需数据请从 GitHub 仓库下载原始数据集后自行解压。
+> 注：`cat_dog.zip` 与 `data/` 数据集未纳入版本管理。原始数据集来自 Kaggle 的 [Dogs vs. Cats](https://www.kaggle.com/c/dogs-vs-cats/data) 比赛（下载需登录 Kaggle 账号）；也可以从本仓库在 GitHub 上的原始版本（[taboo-hacker/task2](https://github.com/taboo-hacker/task2)）获取 `data/`。
 
 ## 🚀 关于项目
 
@@ -62,7 +62,7 @@
     ```
 
 3. 数据准备 
-本仓库未包含数据集，请从 GitHub 仓库下载 `data/` 并放到项目根目录，或自行准备猫狗图片数据。
+本仓库未包含数据集。请从 Kaggle 的 [Dogs vs. Cats](https://www.kaggle.com/c/dogs-vs-cats/data) 下载（需登录），或从 [GitHub 原始仓库](https://github.com/taboo-hacker/task2) 获取 `data/`，解压后放到项目根目录。
 
 4. 要开始训练模型，只需运行以下命令：
 
